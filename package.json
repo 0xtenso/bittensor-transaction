@@ -1,0 +1,20 @@
+{
+  "name": "tao-transfer",
+  "version": "1.0.0",
+  "description": "TAO transfer script for Bittensor testnet",
+  "main": "transfer.js",
+  "scripts": {
+    "start": "node transfer.js",
+    "test": "node transfer.js",
+    "batch": "node batch-transfer.js"
+  },
+  "dependencies": {
+    "web3": "^4.3.0",
+    "ethers": "^6.8.1",
+    "readline-sync": "^1.4.10",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["bittensor", "tao", "transfer", "evm", "testnet"],
+  "author": "",
+  "license": "MIT"
+} 
